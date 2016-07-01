@@ -1,0 +1,27 @@
+body{
+	background-color: #00ffff;
+}
+.fotos{
+	width: 100%; /*se estsblesera el ancho dem los componentes al 100% segun el dispositivo*/
+	margin: 25px 10px 0px 10px;
+}
+ul.fotos li{
+	display: inline;
+}
+ul.fotos a{
+	display: inline;
+	float: left;
+	-webkit-transform: rotate(6deg);
+	-moz-transform: rotate(6deg);
+}
+ul.fotos img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	padding: 25px 25px;
+}
+ul.fotos a:hover{
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	box-shadow: 2px 4px 6px rgba(12, 15, 16, 4);
+}
